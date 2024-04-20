@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz app</title>
+    <style>
+
+        .contents{
+            float: right;
+            display: flex;
+            flex-direction: column;
+            gap: 10px
+        }
+        .q-container{
+            float: right;
+            margin-right: 3%;
+            margin-top: -2%;
+        }
+        .solution{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+           
+        }
+        .submit{
+            float: right;
+            margin-top: 14%;
+            margin-right: -10%
+        }
+        .hide{
+            display: none;
+        }
+        .red{
+            background-color: red;
+            color: white;
+        }
+        .green{
+            background-color: green;
+            color: black
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+        <h1>welcome to fronteend quiz</h1>
+        <p class="topic">pick a subject to get started</p>
+    </div>
+
+    <div class="contents">
+        <button id="start">htm</button>
+        <!-- <button>css</button>
+        <button>javascript</button>
+        <button>accessibility</button> -->
+    </div>
+
+
+    <div class="q-container hide">
+        <span class="quiz">what is me</span>
+        <div class="solution">
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+        <button id="submit">submit</button>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
